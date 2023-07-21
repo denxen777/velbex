@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/velbex/static/css/main.7011b72a.css",
+    "main.js": "/velbex/static/js/main.ffeb857c.js",
+    "static/media/redLight.png": "/velbex/static/media/redLight.adb37654129a55d0fa6d.png",
+    "static/media/purpleLight.png": "/velbex/static/media/purpleLight.dfcd20848ac5f679860d.png",
+    "static/media/purpleLightMob.png": "/velbex/static/media/purpleLightMob.682f2df76d4c18a27b4d.png",
+    "static/media/redLightMob.png": "/velbex/static/media/redLightMob.c59ea652a085d0f2154d.png",
+    "static/media/redBall.png": "/velbex/static/media/redBall.f899ff3523e676bc0dfb.png",
+    "static/media/purpleBall.png": "/velbex/static/media/purpleBall.48176ecb624a8c210a25.png",
+    "index.html": "/velbex/index.html",
+    "main.7011b72a.css.map": "/velbex/static/css/main.7011b72a.css.map",
+    "main.ffeb857c.js.map": "/velbex/static/js/main.ffeb857c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7011b72a.css",
+    "static/js/main.ffeb857c.js"
+  ]
+}
