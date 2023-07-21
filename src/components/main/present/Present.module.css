@@ -1,0 +1,90 @@
+.present {
+  width: 295px;
+  margin-top: 15px;
+  text-align: right;
+}
+
+.present > p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  background: linear-gradient(to right, #FCB045 35%, #FD1D1D);
+  -webkit-background-clip: text;
+}
+
+.present > p span {
+  text-transform: uppercase;
+  font-weight: 600;
+  -webkit-text-fill-color: transparent;
+}
+
+.present .asideMob {
+  display: none;
+}
+
+.present .asideDesk {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.present .asideDesk .title {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.present .asideDesk .text {
+  font-family: Montserrat, serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.present .btn {
+  background-color: #4077F3;
+  border: none;
+  padding: 21px 35px;
+  margin-top: 60px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.present .btn:hover {
+  background-color: #184efa;
+}
+
+@media (max-width: 855px) {
+  .present {
+    text-align: start;
+  }
+}
+
+@media (max-width: 600px) {
+  .present .asideDesk {
+    display: none;
+  }
+
+  .present .btn {
+    display: none;
+  }
+
+  .present .asideMob {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 14px;
+  }
+
+  .present .asideMob p {
+    font-family: Montserrat, serif;
+    font-size: 13px;
+    margin-left: 10px;
+  }
+
+  .present .asideMob .item {
+    display: flex;
+  }
+
+  .present .asideMob .item svg {
+    margin-bottom: 6px;
+  }
+}

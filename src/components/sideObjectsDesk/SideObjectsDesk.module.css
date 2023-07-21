@@ -1,0 +1,32 @@
+.sideObjectsDesk .purpleBall {
+  position: fixed;
+  left: 62%;
+}
+
+.sideObjectsDesk .redBall {
+  position: fixed;
+  top: 7%;
+  left: 43%;
+}
+
+.sideObjectsDesk .redBallSmall {
+  position: fixed;
+  top: 60%;
+  left: 60%;
+}
+
+.sideObjectsDesk .purpleLight {
+  position: fixed;
+  top: 0;
+  left: 20%;
+}
+
+.sideObjectsDesk .redLight {
+  position: fixed;
+}
+
+@media (max-width: 600px) {
+  .sideObjectsDesk {
+    display: none;
+  }
+}

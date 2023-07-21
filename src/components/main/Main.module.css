@@ -1,0 +1,55 @@
+.content {
+  margin-bottom: 70px;
+  position: relative;
+}
+
+.content .wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content .section {
+  width: 365px;
+}
+
+.content .section h1 {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.content .section h1 span {
+  font-size: 48px;
+  font-weight: 900;
+  display: block;
+  margin-bottom: 30px;
+  background: linear-gradient(to right, #FCB045, #FF3F78);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.content .section p {
+  font-family: Montserrat, serif;
+  font-size: 18px;
+  font-weight: 400;
+  width: 275px;
+}
+
+@media (max-width: 855px) {
+  .content .wrap {
+    flex-direction: column;
+  }
+
+  .content .section {
+    margin-bottom: 45px;
+  }
+}
+
+@media (max-width: 600px) {
+  .content .section h1, .content .section h1 span {
+    font-size: 38px;
+  }
+
+  .content .wrap {
+    padding: 40px 15px 60px;
+  }
+}

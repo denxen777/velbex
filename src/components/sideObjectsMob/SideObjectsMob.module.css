@@ -1,0 +1,34 @@
+.sideObjectsMob {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .sideObjectsMob {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: #121212;
+  }
+
+  .sideObjectsMob .purpleLightMob {
+    position: absolute;
+    right: 0;
+  }
+
+  .sideObjectsMob .redLightMob {
+    position: absolute;
+  }
+
+  .sideObjectsMob .purpleBallMob {
+    position: absolute;
+    right: 0;
+    top: 200px;
+  }
+
+  .sideObjectsMob .redBallSmall {
+    position: absolute;
+    top: 400px;
+  }
+}

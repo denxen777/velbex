@@ -1,0 +1,38 @@
+.socials {
+  display: inline-flex;
+  margin-left: 47px;
+  column-gap: 30px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  row-gap: 20px;
+}
+
+.flex .socials {
+  margin: 0;
+  column-gap: 10px;
+}
+
+@media (max-width: 1260px) {
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    row-gap: 15px;
+  }
+}
+
+@media (max-width: 855px) {
+  .contacts {
+    display: none;
+  }
+}
+
+@media (max-width: 855px) {
+  .flex {
+    align-items: start;
+  }
+}

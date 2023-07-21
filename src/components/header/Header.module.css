@@ -1,0 +1,32 @@
+.header {
+  margin-bottom: 90px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+
+.header .title {
+  font-family: Montserrat, serif;
+  font-weight: 300;
+  font-size: 10px;
+}
+
+.header .title .subtitle {
+  display: inline-block;
+  width: 165px;
+  line-height: 12px;
+  margin-top: 10px;
+}
+
+@media (max-width: 1040px) {
+  .header .title {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    margin: 0;
+    padding: 0 15px 0;
+  }
+}

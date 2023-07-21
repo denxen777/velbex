@@ -1,0 +1,30 @@
+.navbar .navbarListDesk {
+  display: flex;
+  column-gap: 30px;
+}
+
+.navbar .navbarListMob {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .navbar .navbarListDesk {
+    display: none;
+  }
+
+  .navbar {
+    width: 100%;
+  }
+
+  .navbar .navbarListMob {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+  }
+
+  .navbar .navbarListMob a {
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 25px 0;
+  }
+}
